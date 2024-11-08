@@ -121,3 +121,118 @@ Aqui estão alguns recursos adicionais que podem ser úteis para entender melhor
 ---
 
 ## 🎯 Prompt de Resposta Proposto
+#Contexto
+Você é um personal trainer especialista e irá auxiliar na montagem de um treino ideal, baseando-se nas variáveis abaixo:
+
+#Variáveis
+{{Tipo Alimentação}} = Refeições não balanceadas
+{{Periodo de treino}} = 5 dias
+{{Tipo de treino}} = Cardio, HIIT, Maquinário
+{{Quanto tempo tem disponível}} = 2 horas
+{{Qual objetivo}} = Ganho de massa
+
+#Regras
+
+Regra 1: Tipo de Alimentação
+Identificar qual tipo alimentação  nas variáveis foi informado
+-Refeições não balanceadas, geralmente refeições rápidas que faltam nutrientes
+-Refeições balanceadas, são aquelas que dão todos os nutrientes necessários
+-Refeições com suplementação, para além das balanceadas inclui foco nos micros e macros nutrientes para desenvolvimento muscular, ou perda de gordura
+
+Regra 2: Periodo de treino
+Verificar os dias disponíveis para gerar o treino necessário
+-1 dia, Full Body: Treino que trabalha o corpo todo em uma única sessão.
+-3 dias, ABC: Divisão do treino em três dias, cada um focado em grupos musculares diferentes.
+5 dias, ABCDE: Divisão do treino em cinco dias, com foco ainda mais específico em cada grupo muscular.
+
+Regra 3: Tipo de treino
+Verificar o tipo de treino escolhido
+-Funcional, Exercícios que melhoram a funcionalidade do corpo, usando movimentos naturais.
+-Maquinário, Exercícios feitos em máquinas, com foco em isolar grupos musculares.
+-Peso Livre, Exercícios com pesos livres, como halteres e barras, para trabalhar vários grupos musculares simultaneamente.
+-Cardio, Exercícios voltados para melhorar a resistência cardiovascular, como corrida ou ciclismo.
+-HIIT, Treinos intervalados de alta intensidade, ótimos para queima de gordura.
+Regra 4: Quanto tempo tem disponível
+Verificar o tempo para poder intercalar os descansos e tempo de cada série do treino todo
+
+Regra 5: Qual objetivo
+Verificar qual objetivo e apartir disso definir se o tipo de treino escolhido poderá cumprir com o objetivo, caso não seja coerente o tipo de treino com o objetivo, altere o tipo de treino para que melhor se encaixe.
+-Ganho de massa, focado em desenvolvimento muscular e resistência
+-Perda de peso, focado em perda de peso e aumento na resistência
+
+#Resultado Esperado
+Com base nos valores informados e as regras, gere um treino que corresponda coerentemente com as regras e valores.
+
+------------------------------------------------------------------------------------------------------------------
+Resultado obtido pelo prompt com uma tentativa via Chatgpt
+
+Para montar o treino ideal, vamos seguir as regras estabelecidas, analisando cada variável e ajustando os exercícios para atingir o objetivo de ganho de massa muscular.
+
+---
+
+## Análise das Variáveis e Regras
+
+1. **Tipo de Alimentação**: 
+   - **Refeições não balanceadas** — Para ganhos de massa muscular, seria essencial equilibrar a alimentação. Recomendo uma revisão para incluir proteínas, carboidratos complexos e gorduras saudáveis em cada refeição. Sem essa base, o ganho de massa pode ser comprometido, ainda que o treino seja intenso.
+
+2. **Período de Treino**:
+   - **5 Dias** — Este período permite o uso do método **ABCDE**, que foca em diferentes grupos musculares a cada dia, permitindo um trabalho detalhado e recuperação adequada entre sessões.
+
+3. **Tipo de Treino**:
+   - **Cardio, HIIT e Maquinário** — Cardio e HIIT são muito benéficos para a saúde cardiovascular e perda de gordura, mas para ganho de massa, o treino precisará priorizar exercícios com **maquinário e pesos livres**. Cardio leve pode ser usado como aquecimento.
+
+4. **Tempo Disponível**:
+   - **2 Horas** — Com esse tempo disponível, podemos distribuir os exercícios, aquecimentos e descansos para otimizar o treino sem pressa. Treinos com séries de 3 a 4 exercícios por grupo muscular com intervalos de descanso de 1-2 minutos entre as séries são ideais.
+
+5. **Objetivo**:
+   - **Ganho de Massa** — Este objetivo exige foco em exercícios que promovam a hipertrofia muscular (repetições entre 8-12, com carga moderada a alta).
+
+---
+
+## Estrutura do Treino
+
+### Segunda-feira: Peito e Abdômen
+- **Aquecimento**: 5 minutos de cardio leve
+- **Supino Inclinado com Halteres** – 4x8-12
+- **Supino Reto no Maquinário** – 4x8-12
+- **Crossover** – 3x10-12
+- **Flexão de Braço** (pelo menos 3 séries até a falha)
+- **Abdômen**: Crunch no Maquinário – 3x15
+
+### Terça-feira: Costas
+- **Aquecimento**: 5 minutos de cardio leve
+- **Puxada Alta** – 4x8-12
+- **Remada Curvada** – 4x10
+- **Remada Baixa no Maquinário** – 4x10
+- **Pulldown** – 3x10-12
+
+### Quarta-feira: Pernas
+- **Aquecimento**: 5 minutos de cardio leve
+- **Agachamento Livre** – 4x8-12
+- **Leg Press** – 4x10
+- **Extensão de Pernas no Maquinário** – 4x10
+- **Flexão de Pernas no Maquinário** – 3x12
+- **Panturrilhas**: Gêmeos no Maquinário – 3x15-20
+
+### Quinta-feira: Ombros e Abdômen
+- **Aquecimento**: 5 minutos de cardio leve
+- **Desenvolvimento com Halteres** – 4x8-12
+- **Elevação Lateral no Maquinário** – 4x10
+- **Elevação Frontal com Halteres** – 3x12
+- **Abdômen**: Elevação de Pernas – 3x15
+
+### Sexta-feira: Braços
+- **Aquecimento**: 5 minutos de cardio leve
+- **Rosca Direta no Maquinário** – 4x10
+- **Rosca Martelo com Halteres** – 3x12
+- **Tríceps Pulley** – 4x10
+- **Tríceps Francês com Halteres** – 3x12
+
+---
+
+### Dicas e Ajustes
+- **Cardio**: Mantenha o cardio leve como aquecimento para não comprometer o ganho de massa.
+- **HIIT**: Relegue o HIIT para o final de apenas dois dias na semana, para manter a resistência sem afetar a hipertrofia.
+- **Alimentação**: Reforçar o consumo de proteínas e, se possível, adicionar suplementação (whey protein, BCAA) pós-treino.
+
+Este plano atende aos objetivos e maximiza o ganho de massa muscular.
